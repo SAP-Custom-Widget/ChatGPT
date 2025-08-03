@@ -1,7 +1,8 @@
-<img src="https://raw.githubusercontent.com/SAP-Custom-Widget/ChatGPT/main/icon.png" width="100">
+<img src="https://github.com/SAP-Custom-Widget/ChatGPT/blob/main/icon.png?raw=true" width="100">
 
 ## SAP/SAC Custom Widget: ChatGPT
 ![Monthly active ysers](https://img.shields.io/jsdelivr/gh/hm/SAP-Custom-Widget/ChatGPT?label=active%20users) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/SAP-Custom-Widget/ChatGPT) ![GitHub followers](https://img.shields.io/github/followers/SAP-Custom-Widget)
+
 This ChatGPT Custom widget will helps you to integrate ChatGPT Chat Box in your sap analytics cloud story with multiple and advanced feature. This widget is 
 very flexible and fast. you just have to provide api key and model and more feature like max_token, temperature, completionChoices you can set your self.
 
@@ -29,9 +30,17 @@ very flexible and fast. you just have to provide api key and model and more feat
 Find this blog to get all documentation ⬇️:
 [https://community.sap.com/t5/technology-blog-posts-by-members/chatgpt-meets-sap-analytics-cloud-a-developer-s-guide-to-chatgpt-custom/ba-p/14149503](https://community.sap.com/t5/technology-blog-posts-by-members/chatgpt-meets-sap-analytics-cloud-a-developer-s-guide-to-chatgpt-custom/ba-p/14149503) 
 
-#### Full Documentation (PDF Guidance)
+#### OpenAI API Creation Video
+Check out how to create OpenAI/ChatGPT API Key ⬇️:
+[https://www.youtube.com/watch?v=Fbc0dejjCbA](https://www.youtube.com/watch?v=Fbc0dejjCbA)
+
+#### ChatGPT Intro and Guidance Video
+Check out how to create OpenAI/ChatGPT API Key ⬇️:
+[https://www.youtube.com/watch?v=bmwkrDsXNTA](https://www.youtube.com/watch?v=bmwkrDsXNTA)
+
+#### PDF Guidance
 Find this PDF File to get documentation ⬇️:
-[https://raw.githubusercontent.com/SAP-Custom-Widget/ChatGPT/main/chatgpt-custom-widget-documentation.pdf](https://raw.githubusercontent.com/SAP-Custom-Widget/ChatGPT/main/chatgpt-custom-widget-documentation.pdf)
+[chatgpt-custom-widget-documentation.pdf](https://github.com/SAP-Custom-Widget/ChatGPT/raw/main/chatgpt-custom-widget-documentation.pdf)
 
 ### Contributors
 
