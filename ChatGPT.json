@@ -1,0 +1,166 @@
+{
+  "id": "com.rohitchouhan.sap.chatgpt",
+  "version": "1.0.0",
+  "name": "ChatGPT",
+  "description": "Advanced ChatGPT Widget for SAP Analytics Cloud with rich features and seamless integration.",
+  "newInstancePrefix": "ChatGPT",
+  "vendor": "rohitchouhan.com",
+  "eula": "rohitchouhan.com",
+  "license": "MIT",
+  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/icon.png",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-rohitchouhan-sap-chatgpt",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/dist/ChatGPT.bundle.js",
+      "integrity": "sha384-5oAkPjHHt1U3yvnZkckBx1+et00ryqab8taCstkV+9FHqGd0/zEL1wtvXnyphIc8",
+      "ignoreIntegrity": true
+    },
+    {
+      "kind": "builder",
+      "tag": "com-rohitchouhan-sap-chatgpt-builder",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/dist/ChatGPT.bundle.js",
+      "integrity": "sha384-5oAkPjHHt1U3yvnZkckBx1+et00ryqab8taCstkV+9FHqGd0/zEL1wtvXnyphIc8",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "apiKey": {
+      "description": "ChatGPT API Key",
+      "type": "string",
+      "default": ""
+    },
+    "model": {
+      "description": "ChatGPT Model",
+      "type": "string",
+      "default": "gpt-3.5-turbo"
+    },
+    "welcomeMsg": {
+      "description": "Welcome Message",
+      "type": "string",
+      "default": "Welcome to ChatGPT Custom Widget! How can I assist you today?"
+    },
+    "chatBoxHeight": {
+      "description": "Height of Chat Box",
+      "type": "number",
+      "default": 60
+    },
+    "btnLabel": {
+      "description": "Label for Send Button",
+      "type": "string",
+      "default": "Send"
+    },
+    "inputHint": {
+      "description": "Chat Input Hint",
+      "type": "string",
+      "default": "Type your message here..."
+    },
+    "serverTimeOut": {
+      "description": "Server Timeout in milliseconds",
+      "type": "number",
+      "default": 60000
+    },
+    "temperature": {
+      "description": "Temperature for response generation",
+      "type": "number",
+      "default": 0.7
+    },
+    "maxTokens": {
+      "description": "Maximum number of tokens in the response",
+      "type": "number",
+      "default": 50
+    },
+    "completionChoices": {
+      "description": "Number of completion choices to return",
+      "type": "number",
+      "default": 1
+    },
+    "headerLabel": {
+      "description": "Header Label for the Chat Box",
+      "type": "string",
+      "default": "ChatGPT"
+    }
+  },
+  "methods": {
+    "exportChat": {
+      "description": "Export chat messages to a text file",
+      "returnType": "boolean"
+    },
+    "setApiKey": {
+      "description": "Set API Key of ChatGPT",
+      "parameters": [
+        {
+          "name": "apiKey",
+          "type": "string",
+          "description": "Api Key of ChatGPT"
+        }
+      ],
+      "body": "this.apiKey = apiKey;"
+    },
+    "setModel": {
+      "description": "Set Model of ChatGPT",
+      "parameters": [
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Model of ChatGPT"
+        }
+      ],
+      "body": "this.model = model;"
+    },
+    "setTemperature": {
+      "description": "Set Temperature for response generation",
+      "parameters": [
+        {
+          "name": "temperature",
+          "type": "number",
+          "description": "Temperature for response generation"
+        }
+      ],
+      "body": "this.temperature = temperature;"
+    },
+    "setMaxTokens": {
+      "description": "Set Maximum number of tokens in the response",
+      "parameters": [
+        {
+          "name": "maxTokens",
+          "type": "number",
+          "description": "Maximum number of tokens in the response"
+        }
+      ],
+      "body": "this.maxTokens = maxTokens;"
+    },
+    "setCompletionChoices": {
+      "description": "Set Number of completion choices to return",
+      "parameters": [
+        {
+          "name": "completionChoices",
+          "type": "number",
+          "description": "Number of completion choices to return"
+        }
+      ],
+      "body": "this.completionChoices = completionChoices;"
+    },
+    "setServerTimeOut": {
+      "description": "Set Server Timeout in milliseconds",
+      "parameters": [
+        {
+          "name": "serverTimeOut",
+          "type": "number",
+          "description": "Server Timeout in milliseconds"
+        }
+      ],
+      "body": "this.serverTimeOut = serverTimeOut;"
+    },
+    "getModel": {
+      "description": "Get Model of ChatGPT",
+      "returnType": "string",
+      "body": "return this.model;"
+    }
+  },
+  "events": {
+    "onFailure": {
+      "description": "Event triggered when an error occurs, ex. when the API key is invalid or the model is not available or any."
+    }
+  }
+}
