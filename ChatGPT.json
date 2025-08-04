@@ -14,14 +14,14 @@
       "tag": "com-rohitchouhan-sap-chatgpt",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/dist/ChatGPT.bundle.js",
       "integrity": "sha384-5oAkPjHHt1U3yvnZkckBx1+et00ryqab8taCstkV+9FHqGd0/zEL1wtvXnyphIc8",
-      "ignoreIntegrity": true
+      "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "com-rohitchouhan-sap-chatgpt-builder",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/dist/ChatGPT.bundle.js",
       "integrity": "sha384-5oAkPjHHt1U3yvnZkckBx1+et00ryqab8taCstkV+9FHqGd0/zEL1wtvXnyphIc8",
-      "ignoreIntegrity": true
+      "ignoreIntegrity": false
     }
   ],
   "properties": {
