@@ -1,27 +1,27 @@
 {
   "id": "com.rohitchouhan.sap.chatgpt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "ChatGPT",
   "description": "Advanced ChatGPT Widget for SAP Analytics Cloud with rich features and seamless integration.",
   "newInstancePrefix": "ChatGPT",
   "vendor": "rohitchouhan.com",
   "eula": "rohitchouhan.com",
   "license": "MIT",
-  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.1/icon.png",
+  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.2/icon.png",
   "webcomponents": [
     {
       "kind": "main",
       "tag": "com-rohitchouhan-sap-chatgpt",
-      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.1/dist/ChatGPT.bundle.js",
-      "integrity": "sha384-mRmU8BFog1HETafOaqT/HT2IXsTi0H3hRB6qQZE0XnR5tFZDsovRrHhcSRsJwmeJ",
-      "ignoreIntegrity": true
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.2/dist/ChatGPT.bundle.js",
+      "integrity": "sha384-3PzIjG2G9MjxIFkDtWIvNXoKhohZZqHMd9Uin6a0X4VUsaGfZw8s0U00C61P5DYX",
+      "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "com-rohitchouhan-sap-chatgpt-builder",
-      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.1/dist/ChatGPT.bundle.js",
-      "integrity": "sha384-mRmU8BFog1HETafOaqT/HT2IXsTi0H3hRB6qQZE0XnR5tFZDsovRrHhcSRsJwmeJ",
-      "ignoreIntegrity": true
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.2/dist/ChatGPT.bundle.js",
+      "integrity": "sha384-3PzIjG2G9MjxIFkDtWIvNXoKhohZZqHMd9Uin6a0X4VUsaGfZw8s0U00C61P5DYX",
+      "ignoreIntegrity": false
     }
   ],
   "properties": {
