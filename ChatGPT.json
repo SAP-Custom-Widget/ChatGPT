@@ -1,6 +1,6 @@
 {
   "id": "com.rohitchouhan.sap.chatgpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "ChatGPT",
   "description": "Advanced ChatGPT Widget for SAP Analytics Cloud with rich features and seamless integration.",
   "newInstancePrefix": "ChatGPT",
@@ -13,15 +13,15 @@
       "kind": "main",
       "tag": "com-rohitchouhan-sap-chatgpt",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/dist/ChatGPT.bundle.js",
-      "integrity": "sha384-5oAkPjHHt1U3yvnZkckBx1+et00ryqab8taCstkV+9FHqGd0/zEL1wtvXnyphIc8",
-      "ignoreIntegrity": false
+      "integrity": "sha384-mRmU8BFog1HETafOaqT/HT2IXsTi0H3hRB6qQZE0XnR5tFZDsovRrHhcSRsJwmeJ",
+      "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "com-rohitchouhan-sap-chatgpt-builder",
       "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/ChatGPT@1.0.0/dist/ChatGPT.bundle.js",
-      "integrity": "sha384-5oAkPjHHt1U3yvnZkckBx1+et00ryqab8taCstkV+9FHqGd0/zEL1wtvXnyphIc8",
-      "ignoreIntegrity": false
+      "integrity": "sha384-mRmU8BFog1HETafOaqT/HT2IXsTi0H3hRB6qQZE0XnR5tFZDsovRrHhcSRsJwmeJ",
+      "ignoreIntegrity": true
     }
   ],
   "properties": {
@@ -79,6 +79,16 @@
       "description": "Header Label for the Chat Box",
       "type": "string",
       "default": "ChatGPT"
+    },
+    "notificationToggle": {
+      "description": "Enable or disable notifications for new messages",
+      "type": "boolean",
+      "default": true
+    },
+    "settingsToggle": {
+      "description": "Enable or disable settings panel",
+      "type": "boolean",
+      "default": false
     }
   },
   "methods": {
