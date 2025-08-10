@@ -1,6 +1,6 @@
 {
   "id": "com.rohitchouhan.sap.chatgpt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "ChatGPT",
   "description": "Advanced ChatGPT Widget for SAP Analytics Cloud with rich features and seamless integration.",
   "newInstancePrefix": "ChatGPT",
